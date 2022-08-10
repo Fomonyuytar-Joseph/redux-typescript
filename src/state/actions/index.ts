@@ -16,3 +16,4 @@ interface BankruptAction {
 
 export type Action = DepositAction | WithdrawAction | BankruptAction
 
+8
