@@ -5,7 +5,7 @@ import {Action}  from "../actions/index"
 const initialState:number=0
 
 
-const reducer = (state:number,action:Action)=>{
+const reducer = (state:number=initialState,action:Action)=>{
 
 
     switch(action.type){
