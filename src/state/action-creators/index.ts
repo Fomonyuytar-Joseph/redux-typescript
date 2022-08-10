@@ -31,7 +31,7 @@ export const withdrawMoney=(amount:number)=>{
     
 }
 
-export const bankrupt=(amount:number)=>{
+export const bankrupt=()=>{
 
     return (dispatch:Dispatch<Action>)=>{
 
